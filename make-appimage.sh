@@ -15,13 +15,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/openra-cnc \
-/usr/bin/openra-cnc-server \
-/usr/bin/openra-d2k \
-/usr/bin/openra-d2k-server \
-/usr/bin/openra-ra \
-/usr/bin/openra-ra-server \
-/usr/lib/openra
+quick-sharun /usr/bin/openra-* /usr/lib/openra
 
 # Additional changes can be done in between here
 
