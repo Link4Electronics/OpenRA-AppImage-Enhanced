@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/OpenRA-AppImage-Enhanced)](https://github.com/pkgforge-dev/OpenRA-AppImage-Enhanced/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://github.com/OpenRA/OpenRA/blob/bleed/packaging/artwork/ra_scalable.svg" width="128" />
 </p>
 
 
