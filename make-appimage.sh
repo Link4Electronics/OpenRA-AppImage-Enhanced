@@ -8,12 +8,20 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=PATH_OR_URL_TO_ICON
-export DESKTOP=PATH_OR_URL_TO_DESKTOP_ENTRY
+export ICON=/
+export DESKTOP=/
 export DEPLOY_DOTNET=1
+export DEPLOY_OPENGL=1
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun /usr/bin/openra-cnc \
+/usr/bin/openra-cnc-server \
+/usr/bin/openra-d2k \
+/usr/bin/openra-d2k-server \
+/usr/bin/openra-ra \
+/usr/bin/openra-ra-server \
+/usr/lib/openra
 
 # Additional changes can be done in between here
 
