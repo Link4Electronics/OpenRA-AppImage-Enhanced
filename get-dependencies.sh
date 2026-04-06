@@ -7,8 +7,8 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    libdecor \
-    mono
+    dotnet-sdk-6.0 \
+    libdecor
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
