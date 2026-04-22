@@ -17,7 +17,7 @@ export DEPLOY_PIPEWIRE=1
 # Deploy dependencies
 cp -r /usr/lib/openra/* ./AppDir/bin
 #quick-sharun /usr/bin/openra-* /usr/lib/openra/*
-quick-sharun ./AppDir/bin/*
+quick-sharun /usr/bin/openra-* ./AppDir/bin/*
 
 # Additional changes can be done in between here
 
