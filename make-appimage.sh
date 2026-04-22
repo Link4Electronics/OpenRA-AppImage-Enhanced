@@ -15,6 +15,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
+mkdir -p ./AppDir/bin
 cp -r /usr/lib/openra/* ./AppDir/bin
 #quick-sharun /usr/bin/openra-* /usr/lib/openra/*
 quick-sharun /usr/bin/openra-* ./AppDir/bin/*
