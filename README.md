@@ -17,7 +17,7 @@
 
 </div>
 
-** Run `./OpenRA*.AppImage --make-symlinks`** to expose each bundled binary to be able to play Dune 2000 or Tiberian Dawn in `~/.local/bin` as symlinks the AppImage (similar to how busybox works).
+** To be able to play `Dune 2000` or `Tiberian Dawn`, run `./OpenRA*.AppImage --make-symlinks`** to expose each bundled binary in `~/.local/bin` as symlinks the AppImage (similar to how busybox works).
 
 ---
 
