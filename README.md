@@ -17,6 +17,8 @@
 
 </div>
 
+** Run `./OpenRA*.AppImage --make-symlinks`** to expose each bundled binary to be able to play Dune 2000 or Tiberian Dawn in `~/.local/bin` as symlinks the AppImage (similar to how busybox works).
+
 ---
 
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
